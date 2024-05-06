@@ -1,0 +1,26 @@
+[
+  {
+    "Name": "ITzpire Api",
+    "Status": "Online",
+    "Apikey": "No",
+    "Link": "https://itzpire.site"
+  },
+  {
+    "Name": "Caliph Api",
+    "Status": "Online",
+    "Apikey": "Yes",
+    "Link": "https://api.caliph.biz.id"
+  },
+  {
+    "Name": "Rose Api",
+    "Status": "Online",
+    "Apikey": "Yes",
+    "Link": "https://rose.rest"
+  },
+  {
+  "Name": "Yanz Api",
+  "Status": "Online",
+  "Apikey": "Yes",
+  "Link": "https://api.yanzbotz.my.id"
+  }
+]

@@ -1,0 +1,83 @@
+    body {
+      animation: backgroundAnimation 30s linear infinite alternate-reverse;
+    }
+
+    @keyframes backgroundAnimation {
+      0% {
+        background-position: 0% 50%;
+      }
+      100% {
+        background-position: 100% 50%;
+      }
+    }
+
+    .link-item {
+      border-radius: 20px;
+      box-shadow: 10px 10px 30px #b8c2cf, -10px -10px 30px #e5eff8;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .link-item:hover {
+      transform: translateY(-6px);
+      box-shadow: 5px 5px 15px #c0c9d6, -5px -5px 15px #ebeff5;
+    }
+
+    .link-item:hover a {
+      color: #b0b8c3;
+    }
+
+    .status {
+      min-width: 100px;
+      position: relative;
+    }
+
+    .apikey {
+      min-width: 80px;
+      position: relative;
+    }
+
+    .status-indicator {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: auto;
+      max-width: 100%;
+      padding: 6px 10px;
+      border-radius: 5px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+    }
+
+    .status-indicator.online {
+      background-color: green;
+    }
+
+    .status-indicator.offline {
+      background-color: red;
+    }
+
+    .apikey-indicator {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: auto;
+      max-width: 100%;
+      padding: 6px 10px;
+      border-radius: 5px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+    }
+
+    .apikey-indicator.yes {
+      background-color: blue;
+    }
+
+    .apikey-indicator.no {
+      background-color: red;
+    }
